@@ -10,7 +10,7 @@ public class Demo {
             System.out.println("counter after decrese is: "+counter.getCount());
         }
         
-        System.out.println("Current number in string is: "+counter.toString(counter.getCount()));
+        System.out.println("Number in string is: "+counter.toString(counter.getCount()));
 
         counter.setCount(-99);
     }
