@@ -1,16 +1,15 @@
 public class Counter implements CounterInterface {
-
     int count;
-
+    
     public void setCount (int count){
         if (count>=0){
             this.count=count;
         } 
         else{
-            System.out.println("This value cannot be set to count");
+            System.out.println("This value can't be set.");
         }
     }
-
+ 
     public int getCount(){
         return count;
     }
@@ -29,7 +28,7 @@ public class Counter implements CounterInterface {
             return count;
         }
     }
-
+    
     public String toString (int count){
         return String.valueOf(count);
     }
